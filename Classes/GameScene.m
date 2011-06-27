@@ -100,7 +100,7 @@
 	
 	// set scale
 	float scale = rand() / RAND_MAX; // from 0 to 1
-	scale = scale * 0.4f + 0.6f;
+	scale = scale * 0.4f + 0.6f;		// from 0.6 to 1.0
 	figure.scale = scale;
 	
 	return figure;
