@@ -82,7 +82,7 @@
 	pointA = ccpMult(pointA, 300);			// !!!
 	pointA = ccpAdd(pointA, ccp(240, 160));
 	
-	alpha = rand() % (180 - 90) + 90;
+	alpha = rand() % (250 - 110) + 110;
 	alpha = CC_DEGREES_TO_RADIANS(alpha);
 	CGPoint pointB = ccpRotateByAngle(pointA, ccp(240,160), -alpha);
 //	pointB = ccpMult(pointB, 100);
